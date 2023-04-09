@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { PokemonContext } from "./PokemonContext"
-import { useForm } from "../hooks/useForm";
+import { useForm } from "../hook/useForm";
 
 export const PokemonProvider = ({children}) => {
 
