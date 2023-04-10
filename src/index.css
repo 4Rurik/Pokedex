@@ -35,12 +35,12 @@ body {
 	font-family: 'Press Start 2P', cursive;
 	color: rgb(77, 80, 84);
 	background: radial-gradient(ellipse at center,
-	rgba(77, 80, 84, 1) 0%,
-	rgba(77, 80, 84, 1) 30%,
-	rgba(7, 10, 14, 0.6) 50%,
-	rgba(7, 10, 14, 0.6) 50%,
-	rgba(57, 60, 64, 1) 80%,
-	rgba(57, 60, 64, 1) 100%);
+	hsl(214, 40%, 32%) 0%,
+	hsl(214, 40%, 32%) 30%,
+	hsla(214, 33%, 4%, 0.6) 50%,
+	hsla(214, 33%, 4%, 0.6) 50%,
+	hsl(214, 60%, 24%) 80%,
+	hsl(214, 60%, 24%) 100%);
 	background-attachment: fixed;
 }
 
@@ -85,7 +85,7 @@ header form {
 	border: none;
 	outline: none;
 	font-size: 11px;
-	background-color: #4c5055;
+	background-color: hsla(214, 61%, 24%, 0);
 	color: #fff;
 }
 
@@ -431,7 +431,10 @@ header form {
 	flex-direction: column;
 	margin-top: 100px;
 	margin-bottom: 50px;
+	padding: 1%;
 	background-blend-mode: soft-light, normal;
+	border-radius: 150px;
+	border: 8px solid #000;
 }
 
 .header-main-pokemon {
@@ -445,15 +448,16 @@ header form {
 	position: absolute;
 	z-index: 1;
 	text-align: center;
-	top: -75px;
-	left: 0;
-	font-size: 150px;
+	top: 10px;
+	left: 110px;
+	font-size: 120px;
 	font-weight: 700;
-	color: var(--color-primary-hover);
+	color: rgba(41, 78, 81, 0.6);
 }
 
 .container-img-pokemon {
 	order: 2;
+	z-index: 2;
 	flex: 1;
 	padding: 25px 25px 25px 0;
 	height: 600px;
