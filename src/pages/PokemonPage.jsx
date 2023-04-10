@@ -21,13 +21,13 @@ export const PokemonPage = () => {
 
   const typeColors = {
     normal: '#a4acaf',
-    fighting: 'linear-gradient(180deg, #d56723 50%, #6e1a00 50%)',
+    fighting: 'linear-gradient(180deg, #d56723 30%, #6e1a00 70%)',
     flying: '#95e8ff',
     poison: '#7e0058',
     ground: '#6e1a00',
     rock: '#756237',
     bug: '#9cbe1e',
-    ghost: 'linear-gradient(180deg, #a4acaf 50%, #7b62a3 50%)',
+    ghost: 'linear-gradient(180deg, #a4acaf 30%, #7b62a3 70%)',
     steel: '#753845',
     fire: '#ff7402',
     water: '#0050ac',
@@ -35,11 +35,11 @@ export const PokemonPage = () => {
     electric: '#ffea00',
     psychic: '#c90086',
     ice: '#3dc7ef',
-    dragon: 'linear-gradient(180deg, #d13f25 50%, #2022a0 50%)',
+    dragon: 'linear-gradient(180deg, #d13f25 30%, #2022a0 70%)',
     dark: '#43395a',
     fairy: '#fdb9e9',
     unknown: '#757575',
-    shadow: 'linear-gradient(180deg, #757575 50%, #303030 50%)'
+    shadow: 'linear-gradient(180deg, #757575 30%, #303030 70%)'
   };
 
   const getTypeBackground = () => {
